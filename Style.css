@@ -1,0 +1,130 @@
+body{
+    font-family: arial;
+    background: black;
+}
+
+#container{
+    width: 1349px;
+    height: 420px;
+    background: #3A4B55;
+    border: 1px solid #171E22;
+    box-sizing: boder-box;
+
+}
+
+#containerApostas
+{
+    width: 1349px;
+    height: 420px;
+    background: #3A4B55;
+    border: 1px solid #171E22;
+    position: relative;
+}
+
+.linhasepara:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    left: 675px;
+    border-left: 2px solid #171E22;
+    height: 420px;
+}
+
+
+
+
+/*=================================================== Canvas Css ========================================*/
+
+#myCanvas {
+        margin-top:56px;
+    margin-left: 100px;
+    background: #ffffff;
+    border: 1px solid #171E22;
+}
+
+#myCanvasGraf{
+    margin-top:56px;
+    background: #ffffff;
+    border: 1px solid #171E22;
+    margin-left: 350px;
+
+}
+
+#myCanvasApostas
+{
+    margin-top:56px;
+    margin-left: 800px;
+    background: #ffffff;
+    border: 1px solid #171E22;
+}
+
+/* ============================================ Headers do canvas ================================= */
+
+div.canvasHeader {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 270px;
+    position: absolute;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+
+div.canvasGrafHeader
+{
+    width: 120px;
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 5px;
+    margin-left: 490px;
+    position: absolute;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+
+div.canvasApostasHeader
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 930px;
+    position: absolute;
+    margin-bottom: 2px;
+    color: #ffffff;
+
+}
+
+/* ===================================================== Legend ===============================*/
+
+legend.legendApostas
+{
+    width: inherit;
+    padding: 0px 10px;
+    border-bottom: none;
+    color: #ffffff;
+}
+
+/* ================================================ Tables ==========================================*/
+
+.table th, .table td {
+    border-top: none !important;
+    color: white;
+    margin-right: 50px;
+}
+
+
+/*Form*/
+
+.form-control{
+    color: #000000 !important;
+    width: 160px!important;
+    size: 4;
+}
+
+.table tr {
+    line-height: 50px;
+}
+
+/*============================================ Classes  ========================*/
+
